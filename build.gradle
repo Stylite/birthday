@@ -4,14 +4,6 @@ plugins {
     id 'java'
 }
 
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'me.stylite.birthday'
-        )
-    }
-}
-
 group = 'me.stylite.birthday'
 version = '1.0'
 
